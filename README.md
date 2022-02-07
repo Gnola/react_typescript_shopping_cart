@@ -1,6 +1,14 @@
-# [Build a Shopping Cart with React and TypeScript](https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript/)
+# [Shopping Cart App](https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript/)
+- React
+  - `useState`
+  - `useQuery`
+- TypeScript
+- Material UI
+- Styled Components
 
-## Initial Set Up
+## Set Up
+
+### Initial Set Up
 In **root directory**
 - `npx create-react-app client --template typescript`
 
@@ -14,3 +22,9 @@ In **`/client`**
 ### Start Up
 In **`/client`**
 - `npm start`
+
+---
+
+### Additional Notes
+- Does **not** use a DB
+- Is **not** deployed anywhere
