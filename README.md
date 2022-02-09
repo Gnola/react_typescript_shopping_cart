@@ -1,30 +1,51 @@
-# [Shopping Cart App](https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript/)
-- React
-  - `useState`
-  - `useQuery`
-- TypeScript
-- Material UI
-- Styled Components
+# Shopping Cart App
 
-## Set Up
+This app fetches products from a Fake Store API and allows you to add/remove items from the shopping cart
 
-### Initial Set Up
-In **root directory**
-- `npx create-react-app client --template typescript`
+### Frontend
 
-### Add Dependencies
-In **`/client`**
-- `npm i @material-ui/core`
-- `npm i @material-ui/icons`
-- `npm i react-query`
-- `npm i styled-components @types/styled-components`
+#### React
+- React Query
+- Hooks
 
-### Start Up
-In **`/client`**
-- `npm start`
+#### TypeScript
+
+#### Material UI
+
+#### Styled Components
+
+### Backend
+
+This project does **not** have a backend
+
+### Databases
+
+This project does **not** use a DB
+
+### APIs / Data
+
+Uses **fetch** to make API call(s)
+
+#### [Fake Store API](https://fakestoreapi.com)
+
+| Type      | Function      | End Point                           | Functionality    |
+| :-------- | :------------ | :---------------------------------- | :--------------- |
+| **fetch** | `getProducts` | *https://fakestoreapi.com/products* | Get all products |
+
+
+### Deployment
+
+This project is **not** deployed
 
 ---
 
-### Additional Notes
-- Does **not** use a DB
-- Is **not** deployed anywhere
+### Related
+
+Here are some related projects
+
+[Awesome README](https://github.com/matiassingers/awesome-readme)
+
+---
+
+### Resources
+- [React and TypeScript Shopping Cart (FCC)](https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript/)
